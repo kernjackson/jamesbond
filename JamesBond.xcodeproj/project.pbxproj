@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847E212D1C0FB1B40029FAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */; };
+		847E212F1C0FB1B40029FAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E212E1C0FB1B40029FAD3 /* ViewController.swift */; };
+		847E21321C0FB1B40029FAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21301C0FB1B40029FAD3 /* Main.storyboard */; };
+		847E21351C0FB1B40029FAD3 /* JamesBond.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847E21331C0FB1B40029FAD3 /* JamesBond.xcdatamodeld */; };
+		847E21371C0FB1B40029FAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847E21361C0FB1B40029FAD3 /* Assets.xcassets */; };
+		847E213A1C0FB1B40029FAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */; };
+		847E21451C0FB1B40029FAD3 /* JamesBondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21441C0FB1B40029FAD3 /* JamesBondTests.swift */; };
+		847E21501C0FB1B40029FAD3 /* JamesBondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E214F1C0FB1B40029FAD3 /* JamesBondUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847E21411C0FB1B40029FAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847E21211C0FB1B40029FAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847E21281C0FB1B40029FAD3;
+			remoteInfo = JamesBond;
+		};
+		847E214C1C0FB1B40029FAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847E21211C0FB1B40029FAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847E21281C0FB1B40029FAD3;
+			remoteInfo = JamesBond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847E21291C0FB1B40029FAD3 /* JamesBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamesBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847E212E1C0FB1B40029FAD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847E21311C0FB1B40029FAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847E21341C0FB1B40029FAD3 /* JamesBond.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JamesBond.xcdatamodel; sourceTree = "<group>"; };
+		847E21361C0FB1B40029FAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847E21391C0FB1B40029FAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847E213B1C0FB1B40029FAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847E21401C0FB1B40029FAD3 /* JamesBondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesBondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E21441C0FB1B40029FAD3 /* JamesBondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesBondTests.swift; sourceTree = "<group>"; };
+		847E21461C0FB1B40029FAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847E214B1C0FB1B40029FAD3 /* JamesBondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesBondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E214F1C0FB1B40029FAD3 /* JamesBondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesBondUITests.swift; sourceTree = "<group>"; };
+		847E21511C0FB1B40029FAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847E21261C0FB1B40029FAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E213D1C0FB1B40029FAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E21481C0FB1B40029FAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847E21201C0FB1B40029FAD3 = {
+			isa = PBXGroup;
+			children = (
+				847E212B1C0FB1B40029FAD3 /* JamesBond */,
+				847E21431C0FB1B40029FAD3 /* JamesBondTests */,
+				847E214E1C0FB1B40029FAD3 /* JamesBondUITests */,
+				847E212A1C0FB1B40029FAD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847E212A1C0FB1B40029FAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847E21291C0FB1B40029FAD3 /* JamesBond.app */,
+				847E21401C0FB1B40029FAD3 /* JamesBondTests.xctest */,
+				847E214B1C0FB1B40029FAD3 /* JamesBondUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847E212B1C0FB1B40029FAD3 /* JamesBond */ = {
+			isa = PBXGroup;
+			children = (
+				847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */,
+				847E212E1C0FB1B40029FAD3 /* ViewController.swift */,
+				847E21301C0FB1B40029FAD3 /* Main.storyboard */,
+				847E21361C0FB1B40029FAD3 /* Assets.xcassets */,
+				847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */,
+				847E213B1C0FB1B40029FAD3 /* Info.plist */,
+				847E21331C0FB1B40029FAD3 /* JamesBond.xcdatamodeld */,
+			);
+			path = JamesBond;
+			sourceTree = "<group>";
+		};
+		847E21431C0FB1B40029FAD3 /* JamesBondTests */ = {
+			isa = PBXGroup;
+			children = (
+				847E21441C0FB1B40029FAD3 /* JamesBondTests.swift */,
+				847E21461C0FB1B40029FAD3 /* Info.plist */,
+			);
+			path = JamesBondTests;
+			sourceTree = "<group>";
+		};
+		847E214E1C0FB1B40029FAD3 /* JamesBondUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847E214F1C0FB1B40029FAD3 /* JamesBondUITests.swift */,
+				847E21511C0FB1B40029FAD3 /* Info.plist */,
+			);
+			path = JamesBondUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847E21281C0FB1B40029FAD3 /* JamesBond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E21541C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBond" */;
+			buildPhases = (
+				847E21251C0FB1B40029FAD3 /* Sources */,
+				847E21261C0FB1B40029FAD3 /* Frameworks */,
+				847E21271C0FB1B40029FAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamesBond;
+			productName = JamesBond;
+			productReference = 847E21291C0FB1B40029FAD3 /* JamesBond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847E213F1C0FB1B40029FAD3 /* JamesBondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E21571C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondTests" */;
+			buildPhases = (
+				847E213C1C0FB1B40029FAD3 /* Sources */,
+				847E213D1C0FB1B40029FAD3 /* Frameworks */,
+				847E213E1C0FB1B40029FAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847E21421C0FB1B40029FAD3 /* PBXTargetDependency */,
+			);
+			name = JamesBondTests;
+			productName = JamesBondTests;
+			productReference = 847E21401C0FB1B40029FAD3 /* JamesBondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847E214A1C0FB1B40029FAD3 /* JamesBondUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E215A1C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondUITests" */;
+			buildPhases = (
+				847E21471C0FB1B40029FAD3 /* Sources */,
+				847E21481C0FB1B40029FAD3 /* Frameworks */,
+				847E21491C0FB1B40029FAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847E214D1C0FB1B40029FAD3 /* PBXTargetDependency */,
+			);
+			name = JamesBondUITests;
+			productName = JamesBondUITests;
+			productReference = 847E214B1C0FB1B40029FAD3 /* JamesBondUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847E21211C0FB1B40029FAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kern;
+				TargetAttributes = {
+					847E21281C0FB1B40029FAD3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					847E213F1C0FB1B40029FAD3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 847E21281C0FB1B40029FAD3;
+					};
+					847E214A1C0FB1B40029FAD3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 847E21281C0FB1B40029FAD3;
+					};
+				};
+			};
+			buildConfigurationList = 847E21241C0FB1B40029FAD3 /* Build configuration list for PBXProject "JamesBond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847E21201C0FB1B40029FAD3;
+			productRefGroup = 847E212A1C0FB1B40029FAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847E21281C0FB1B40029FAD3 /* JamesBond */,
+				847E213F1C0FB1B40029FAD3 /* JamesBondTests */,
+				847E214A1C0FB1B40029FAD3 /* JamesBondUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847E21271C0FB1B40029FAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E213A1C0FB1B40029FAD3 /* LaunchScreen.storyboard in Resources */,
+				847E21371C0FB1B40029FAD3 /* Assets.xcassets in Resources */,
+				847E21321C0FB1B40029FAD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E213E1C0FB1B40029FAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E21491C0FB1B40029FAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847E21251C0FB1B40029FAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E212F1C0FB1B40029FAD3 /* ViewController.swift in Sources */,
+				847E212D1C0FB1B40029FAD3 /* AppDelegate.swift in Sources */,
+				847E21351C0FB1B40029FAD3 /* JamesBond.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E213C1C0FB1B40029FAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E21451C0FB1B40029FAD3 /* JamesBondTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E21471C0FB1B40029FAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E21501C0FB1B40029FAD3 /* JamesBondUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847E21421C0FB1B40029FAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847E21281C0FB1B40029FAD3 /* JamesBond */;
+			targetProxy = 847E21411C0FB1B40029FAD3 /* PBXContainerItemProxy */;
+		};
+		847E214D1C0FB1B40029FAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847E21281C0FB1B40029FAD3 /* JamesBond */;
+			targetProxy = 847E214C1C0FB1B40029FAD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847E21301C0FB1B40029FAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847E21311C0FB1B40029FAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847E21391C0FB1B40029FAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847E21521C0FB1B40029FAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847E21531C0FB1B40029FAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847E21551C0FB1B40029FAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JamesBond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBond;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847E21561C0FB1B40029FAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JamesBond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBond;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847E21581C0FB1B40029FAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JamesBondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBondTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesBond.app/JamesBond";
+			};
+			name = Debug;
+		};
+		847E21591C0FB1B40029FAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JamesBondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBondTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesBond.app/JamesBond";
+			};
+			name = Release;
+		};
+		847E215B1C0FB1B40029FAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JamesBondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBondUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JamesBond;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		847E215C1C0FB1B40029FAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JamesBondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernjackson.JamesBondUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JamesBond;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847E21241C0FB1B40029FAD3 /* Build configuration list for PBXProject "JamesBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E21521C0FB1B40029FAD3 /* Debug */,
+				847E21531C0FB1B40029FAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847E21541C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E21551C0FB1B40029FAD3 /* Debug */,
+				847E21561C0FB1B40029FAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847E21571C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E21581C0FB1B40029FAD3 /* Debug */,
+				847E21591C0FB1B40029FAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847E215A1C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E215B1C0FB1B40029FAD3 /* Debug */,
+				847E215C1C0FB1B40029FAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847E21331C0FB1B40029FAD3 /* JamesBond.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847E21341C0FB1B40029FAD3 /* JamesBond.xcdatamodel */,
+			);
+			currentVersion = 847E21341C0FB1B40029FAD3 /* JamesBond.xcdatamodel */;
+			path = JamesBond.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847E21211C0FB1B40029FAD3 /* Project object */;
+}
