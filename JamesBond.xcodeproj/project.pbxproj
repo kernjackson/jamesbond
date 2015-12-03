@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		847E212D1C0FB1B40029FAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */; };
-		847E212F1C0FB1B40029FAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E212E1C0FB1B40029FAD3 /* ViewController.swift */; };
-		847E21321C0FB1B40029FAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21301C0FB1B40029FAD3 /* Main.storyboard */; };
 		847E21351C0FB1B40029FAD3 /* JamesBond.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847E21331C0FB1B40029FAD3 /* JamesBond.xcdatamodeld */; };
 		847E21371C0FB1B40029FAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847E21361C0FB1B40029FAD3 /* Assets.xcassets */; };
 		847E213A1C0FB1B40029FAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */; };
 		847E21451C0FB1B40029FAD3 /* JamesBondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21441C0FB1B40029FAD3 /* JamesBondTests.swift */; };
 		847E21501C0FB1B40029FAD3 /* JamesBondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E214F1C0FB1B40029FAD3 /* JamesBondUITests.swift */; };
+		847E21BE1C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BC1C0FB4D40029FAD3 /* LoginViewModel.swift */; };
+		847E21BF1C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BC1C0FB4D40029FAD3 /* LoginViewModel.swift */; };
+		847E21C01C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BC1C0FB4D40029FAD3 /* LoginViewModel.swift */; };
+		847E21C11C0FB4D40029FAD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BD1C0FB4D40029FAD3 /* LoginViewController.swift */; };
+		847E21C21C0FB4D40029FAD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BD1C0FB4D40029FAD3 /* LoginViewController.swift */; };
+		847E21C31C0FB4D40029FAD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21BD1C0FB4D40029FAD3 /* LoginViewController.swift */; };
+		847E21C91C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C51C0FB4EA0029FAD3 /* ListViewModel.swift */; };
+		847E21CA1C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C51C0FB4EA0029FAD3 /* ListViewModel.swift */; };
+		847E21CB1C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C51C0FB4EA0029FAD3 /* ListViewModel.swift */; };
+		847E21CC1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C61C0FB4EA0029FAD3 /* ListViewController.swift */; };
+		847E21CD1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C61C0FB4EA0029FAD3 /* ListViewController.swift */; };
+		847E21CE1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C61C0FB4EA0029FAD3 /* ListViewController.swift */; };
+		847E21CF1C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C71C0FB4EA0029FAD3 /* ListCellViewModel.swift */; };
+		847E21D01C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C71C0FB4EA0029FAD3 /* ListCellViewModel.swift */; };
+		847E21D11C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C71C0FB4EA0029FAD3 /* ListCellViewModel.swift */; };
+		847E21D21C0FB4EA0029FAD3 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C81C0FB4EA0029FAD3 /* ListCellView.swift */; };
+		847E21D31C0FB4EA0029FAD3 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C81C0FB4EA0029FAD3 /* ListCellView.swift */; };
+		847E21D41C0FB4EA0029FAD3 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C81C0FB4EA0029FAD3 /* ListCellView.swift */; };
+		847E21D71C0FB5100029FAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D61C0FB5100029FAD3 /* Main.storyboard */; };
+		847E21D81C0FB5100029FAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D61C0FB5100029FAD3 /* Main.storyboard */; };
+		847E21D91C0FB5100029FAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D61C0FB5100029FAD3 /* Main.storyboard */; };
+		D174C42515044F46DC1AA7B5 /* Pods_JamesBond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1D5937955190C056D35B8A /* Pods_JamesBond.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711F0F6C5979F958CDD5BF29 /* Pods-JamesBond.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamesBond.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JamesBond/Pods-JamesBond.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1D5937955190C056D35B8A /* Pods_JamesBond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JamesBond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847E21291C0FB1B40029FAD3 /* JamesBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamesBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847E212E1C0FB1B40029FAD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847E21311C0FB1B40029FAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847E21341C0FB1B40029FAD3 /* JamesBond.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JamesBond.xcdatamodel; sourceTree = "<group>"; };
 		847E21361C0FB1B40029FAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847E21391C0FB1B40029FAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,14 @@
 		847E214B1C0FB1B40029FAD3 /* JamesBondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesBondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847E214F1C0FB1B40029FAD3 /* JamesBondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesBondUITests.swift; sourceTree = "<group>"; };
 		847E21511C0FB1B40029FAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847E21BC1C0FB4D40029FAD3 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		847E21BD1C0FB4D40029FAD3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		847E21C51C0FB4EA0029FAD3 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		847E21C61C0FB4EA0029FAD3 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		847E21C71C0FB4EA0029FAD3 /* ListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
+		847E21C81C0FB4EA0029FAD3 /* ListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		847E21D61C0FB5100029FAD3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE4A14DB1E2F767CD9D904E2 /* Pods-JamesBond.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamesBond.release.xcconfig"; path = "Pods/Target Support Files/Pods-JamesBond/Pods-JamesBond.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D174C42515044F46DC1AA7B5 /* Pods_JamesBond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D3D810BD84526BD8FC0461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711F0F6C5979F958CDD5BF29 /* Pods-JamesBond.debug.xcconfig */,
+				EE4A14DB1E2F767CD9D904E2 /* Pods-JamesBond.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79BC631259B26071B51A6505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D5937955190C056D35B8A /* Pods_JamesBond.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		847E21201C0FB1B40029FAD3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				847E21431C0FB1B40029FAD3 /* JamesBondTests */,
 				847E214E1C0FB1B40029FAD3 /* JamesBondUITests */,
 				847E212A1C0FB1B40029FAD3 /* Products */,
+				26D3D810BD84526BD8FC0461 /* Pods */,
+				79BC631259B26071B51A6505 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +147,10 @@
 		847E212B1C0FB1B40029FAD3 /* JamesBond */ = {
 			isa = PBXGroup;
 			children = (
+				847E21D51C0FB4F50029FAD3 /* Repository List */,
+				847E21C41C0FB4DB0029FAD3 /* Login */,
 				847E212C1C0FB1B40029FAD3 /* AppDelegate.swift */,
-				847E212E1C0FB1B40029FAD3 /* ViewController.swift */,
-				847E21301C0FB1B40029FAD3 /* Main.storyboard */,
+				847E21D61C0FB5100029FAD3 /* Main.storyboard */,
 				847E21361C0FB1B40029FAD3 /* Assets.xcassets */,
 				847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */,
 				847E213B1C0FB1B40029FAD3 /* Info.plist */,
@@ -128,6 +177,26 @@
 			path = JamesBondUITests;
 			sourceTree = "<group>";
 		};
+		847E21C41C0FB4DB0029FAD3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				847E21BC1C0FB4D40029FAD3 /* LoginViewModel.swift */,
+				847E21BD1C0FB4D40029FAD3 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		847E21D51C0FB4F50029FAD3 /* Repository List */ = {
+			isa = PBXGroup;
+			children = (
+				847E21C51C0FB4EA0029FAD3 /* ListViewModel.swift */,
+				847E21C61C0FB4EA0029FAD3 /* ListViewController.swift */,
+				847E21C71C0FB4EA0029FAD3 /* ListCellViewModel.swift */,
+				847E21C81C0FB4EA0029FAD3 /* ListCellView.swift */,
+			);
+			name = "Repository List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847E21541C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBond" */;
 			buildPhases = (
+				FB26928D05D84787A5CD30CE /* Check Pods Manifest.lock */,
 				847E21251C0FB1B40029FAD3 /* Sources */,
 				847E21261C0FB1B40029FAD3 /* Frameworks */,
 				847E21271C0FB1B40029FAD3 /* Resources */,
+				1C40C761EA8DA44A035517AA /* Embed Pods Frameworks */,
+				49C58E8336120ACCF2FE9E5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +306,7 @@
 			files = (
 				847E213A1C0FB1B40029FAD3 /* LaunchScreen.storyboard in Resources */,
 				847E21371C0FB1B40029FAD3 /* Assets.xcassets in Resources */,
-				847E21321C0FB1B40029FAD3 /* Main.storyboard in Resources */,
+				847E21D71C0FB5100029FAD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E21D81C0FB5100029FAD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +322,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E21D91C0FB5100029FAD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C40C761EA8DA44A035517AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JamesBond/Pods-JamesBond-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C58E8336120ACCF2FE9E5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JamesBond/Pods-JamesBond-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB26928D05D84787A5CD30CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		847E21251C0FB1B40029FAD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847E212F1C0FB1B40029FAD3 /* ViewController.swift in Sources */,
+				847E21CF1C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */,
+				847E21C11C0FB4D40029FAD3 /* LoginViewController.swift in Sources */,
+				847E21C91C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */,
+				847E21D21C0FB4EA0029FAD3 /* ListCellView.swift in Sources */,
 				847E212D1C0FB1B40029FAD3 /* AppDelegate.swift in Sources */,
+				847E21BE1C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */,
+				847E21CC1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */,
 				847E21351C0FB1B40029FAD3 /* JamesBond.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +396,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E21D01C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */,
+				847E21CA1C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */,
+				847E21C21C0FB4D40029FAD3 /* LoginViewController.swift in Sources */,
+				847E21CD1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */,
+				847E21D31C0FB4EA0029FAD3 /* ListCellView.swift in Sources */,
 				847E21451C0FB1B40029FAD3 /* JamesBondTests.swift in Sources */,
+				847E21BF1C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +410,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E21D11C0FB4EA0029FAD3 /* ListCellViewModel.swift in Sources */,
+				847E21CB1C0FB4EA0029FAD3 /* ListViewModel.swift in Sources */,
+				847E21C31C0FB4D40029FAD3 /* LoginViewController.swift in Sources */,
+				847E21CE1C0FB4EA0029FAD3 /* ListViewController.swift in Sources */,
+				847E21D41C0FB4EA0029FAD3 /* ListCellView.swift in Sources */,
 				847E21501C0FB1B40029FAD3 /* JamesBondUITests.swift in Sources */,
+				847E21C01C0FB4D40029FAD3 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		847E21301C0FB1B40029FAD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847E21311C0FB1B40029FAD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		847E21381C0FB1B40029FAD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -401,6 +532,7 @@
 		};
 		847E21551C0FB1B40029FAD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711F0F6C5979F958CDD5BF29 /* Pods-JamesBond.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JamesBond/Info.plist;
@@ -412,6 +544,7 @@
 		};
 		847E21561C0FB1B40029FAD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4A14DB1E2F767CD9D904E2 /* Pods-JamesBond.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JamesBond/Info.plist;
@@ -488,6 +621,7 @@
 				847E21561C0FB1B40029FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847E21571C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +630,7 @@
 				847E21591C0FB1B40029FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847E215A1C0FB1B40029FAD3 /* Build configuration list for PBXNativeTarget "JamesBondUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +639,7 @@
 				847E215C1C0FB1B40029FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
