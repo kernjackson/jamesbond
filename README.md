@@ -1,8 +1,11 @@
 # To Build
 
-## Install CocoaPods
+## Install Homebrew
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+## Install CocoaPods
+```
 $ brew install cocoapods
 ```
 ## Set up Workspace
